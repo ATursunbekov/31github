@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		772D70C22B0D05F1006AD0FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D70C12B0D05F1006AD0FC /* main.swift */; };
 		772D70C92B0D2B11006AD0FC /* 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D70C82B0D2B11006AD0FC /* 9.swift */; };
+		776837362B0E612B0089B4A5 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776837352B0E612A0089B4A5 /* 1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		772D70BE2B0D05F1006AD0FC /* 31github */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 31github; sourceTree = BUILT_PRODUCTS_DIR; };
 		772D70C12B0D05F1006AD0FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		772D70C82B0D2B11006AD0FC /* 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9.swift; sourceTree = "<group>"; };
+		776837352B0E612A0089B4A5 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,19 @@
 		772D70C02B0D05F1006AD0FC /* 31github */ = {
 			isa = PBXGroup;
 			children = (
-				772D70C82B0D2B11006AD0FC /* 9.swift */,
+				776837372B0E61540089B4A5 /* Problems */,
 				772D70C12B0D05F1006AD0FC /* main.swift */,
 			);
 			path = 31github;
+			sourceTree = "<group>";
+		};
+		776837372B0E61540089B4A5 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				772D70C82B0D2B11006AD0FC /* 9.swift */,
+				776837352B0E612A0089B4A5 /* 1.swift */,
+			);
+			path = Problems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776837362B0E612B0089B4A5 /* 1.swift in Sources */,
 				772D70C22B0D05F1006AD0FC /* main.swift in Sources */,
 				772D70C92B0D2B11006AD0FC /* 9.swift in Sources */,
 			);

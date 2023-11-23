@@ -6,13 +6,12 @@
 //
 
 import Foundation
-
-var num = 123
-var num2 = 123
-var temp = 0
-while num > 0 {
-    temp = temp * 10 + num % 10
-    num /= 10
+func longestCommonPrefix(_ strs: [String]) {
+    let shortestString = strs.min(by: { $0.count < $1.count })
+    var res = ""
+    for i in 0..<(shortestString?.count ?? 0) {
+        var checker = "\(res)\(String(describing: shortestString?[i]))"
+    }
 }
 
-print(temp)
+longestCommonPrefix(["flower","flow","flight"])

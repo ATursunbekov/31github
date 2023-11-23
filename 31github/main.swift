@@ -6,12 +6,39 @@
 //
 
 import Foundation
-func longestCommonPrefix(_ strs: [String]) {
-    let shortestString = strs.min(by: { $0.count < $1.count })
-    var res = ""
-    for i in 0..<(shortestString?.count ?? 0) {
-        var checker = "\(res)\(String(describing: shortestString?[i]))"
+func isValid(_ s: String) {
+    var arr1: [String] = []
+    var arr2: [String] = []
+    var arr3: [String] = []
+    for i in s {
+        if i == "(" {
+            arr1.append("\(i)")
+        } else if i == ")" {
+            if arr1.isEmpty {
+                return
+            }
+            arr1.removeLast()
+        } else if i == "[" {
+            arr2.append("\(i)")
+        } else if i == "]" {
+            if arr1.isEmpty {
+                return
+            }
+            arr2.removeLast()
+        } else if i == "{" {
+            arr3.append("\(i)")
+        } else if i == "}" {
+            if arr1.isEmpty {
+                return
+            }
+            arr3.removeLast()
+        }
+    }
+    if arr1.isEmpty && arr2.isEmpty && arr3.isEmpty {
+        print("true")
+    } else {
+        print("false")
     }
 }
 
-longestCommonPrefix(["flower","flow","flight"])
+isValid("()[]{")

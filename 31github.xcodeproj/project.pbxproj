@@ -10,6 +10,8 @@
 		772D70C22B0D05F1006AD0FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D70C12B0D05F1006AD0FC /* main.swift */; };
 		772D70C92B0D2B11006AD0FC /* 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D70C82B0D2B11006AD0FC /* 9.swift */; };
 		776837362B0E612B0089B4A5 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776837352B0E612A0089B4A5 /* 1.swift */; };
+		779D4C892B11083C0082E784 /* 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D4C882B11083C0082E784 /* 12.swift */; };
+		779D4C8B2B1108D00082E784 /* 17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D4C8A2B1108D00082E784 /* 17.swift */; };
 		77A7FB802B0FC78100143AFC /* 20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7FB7F2B0FC78100143AFC /* 20.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		772D70C12B0D05F1006AD0FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		772D70C82B0D2B11006AD0FC /* 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9.swift; sourceTree = "<group>"; };
 		776837352B0E612A0089B4A5 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		779D4C882B11083C0082E784 /* 12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12.swift; sourceTree = "<group>"; };
+		779D4C8A2B1108D00082E784 /* 17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17.swift; sourceTree = "<group>"; };
 		77A7FB7F2B0FC78100143AFC /* 20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +79,8 @@
 				772D70C82B0D2B11006AD0FC /* 9.swift */,
 				776837352B0E612A0089B4A5 /* 1.swift */,
 				77A7FB7F2B0FC78100143AFC /* 20.swift */,
+				779D4C882B11083C0082E784 /* 12.swift */,
+				779D4C8A2B1108D00082E784 /* 17.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				776837362B0E612B0089B4A5 /* 1.swift in Sources */,
 				77A7FB802B0FC78100143AFC /* 20.swift in Sources */,
+				779D4C8B2B1108D00082E784 /* 17.swift in Sources */,
 				772D70C22B0D05F1006AD0FC /* main.swift in Sources */,
+				779D4C892B11083C0082E784 /* 12.swift in Sources */,
 				772D70C92B0D2B11006AD0FC /* 9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

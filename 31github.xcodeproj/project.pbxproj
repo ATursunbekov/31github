@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772A04082B1506820035BA44 /* 27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A04072B1506820035BA44 /* 27.swift */; };
+		772A040A2B15069D0035BA44 /* 28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A04092B15069D0035BA44 /* 28.swift */; };
 		772D70C22B0D05F1006AD0FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D70C12B0D05F1006AD0FC /* main.swift */; };
 		772D70C92B0D2B11006AD0FC /* 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D70C82B0D2B11006AD0FC /* 9.swift */; };
 		776837362B0E612B0089B4A5 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776837352B0E612A0089B4A5 /* 1.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		772A04072B1506820035BA44 /* 27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27.swift; sourceTree = "<group>"; };
+		772A04092B15069D0035BA44 /* 28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28.swift; sourceTree = "<group>"; };
 		772D70BE2B0D05F1006AD0FC /* 31github */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 31github; sourceTree = BUILT_PRODUCTS_DIR; };
 		772D70C12B0D05F1006AD0FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		772D70C82B0D2B11006AD0FC /* 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				77A311222B12632900D23067 /* 21.swift */,
 				777B77952B138CB100BFD49E /* 13.swift */,
 				777B77972B13903800BFD49E /* 26.swift */,
+				772A04072B1506820035BA44 /* 27.swift */,
+				772A04092B15069D0035BA44 /* 28.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -155,10 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772A04082B1506820035BA44 /* 27.swift in Sources */,
 				776837362B0E612B0089B4A5 /* 1.swift in Sources */,
 				77A311212B1261FE00D23067 /* 36.swift in Sources */,
 				777B77962B138CB100BFD49E /* 13.swift in Sources */,
 				777B77982B13903800BFD49E /* 26.swift in Sources */,
+				772A040A2B15069D0035BA44 /* 28.swift in Sources */,
 				77A7FB802B0FC78100143AFC /* 20.swift in Sources */,
 				779D4C8B2B1108D00082E784 /* 17.swift in Sources */,
 				772D70C22B0D05F1006AD0FC /* main.swift in Sources */,

@@ -19,6 +19,8 @@
 		77A311212B1261FE00D23067 /* 36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A311202B1261FE00D23067 /* 36.swift */; };
 		77A311232B12632900D23067 /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A311222B12632900D23067 /* 21.swift */; };
 		77A7FB802B0FC78100143AFC /* 20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7FB7F2B0FC78100143AFC /* 20.swift */; };
+		77CBBF5E2B164EF400D61FF9 /* 66.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBBF5D2B164EF400D61FF9 /* 66.swift */; };
+		77CBBF602B164F7100D61FF9 /* 67.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBBF5F2B164F7100D61FF9 /* 67.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		77A311202B1261FE00D23067 /* 36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36.swift; sourceTree = "<group>"; };
 		77A311222B12632900D23067 /* 21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.swift; sourceTree = "<group>"; };
 		77A7FB7F2B0FC78100143AFC /* 20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.swift; sourceTree = "<group>"; };
+		77CBBF5D2B164EF400D61FF9 /* 66.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 66.swift; sourceTree = "<group>"; };
+		77CBBF5F2B164F7100D61FF9 /* 67.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 67.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				777B77972B13903800BFD49E /* 26.swift */,
 				772A04072B1506820035BA44 /* 27.swift */,
 				772A04092B15069D0035BA44 /* 28.swift */,
+				77CBBF5D2B164EF400D61FF9 /* 66.swift */,
+				77CBBF5F2B164F7100D61FF9 /* 67.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				772D70C22B0D05F1006AD0FC /* main.swift in Sources */,
 				779D4C892B11083C0082E784 /* 12.swift in Sources */,
 				77A311232B12632900D23067 /* 21.swift in Sources */,
+				77CBBF5E2B164EF400D61FF9 /* 66.swift in Sources */,
+				77CBBF602B164F7100D61FF9 /* 67.swift in Sources */,
 				772D70C92B0D2B11006AD0FC /* 9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

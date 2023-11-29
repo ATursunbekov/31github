@@ -9,9 +9,4 @@ import Foundation
 
 
 
-func removeDuplicates(_ numbers: [Int]) -> Int {
-    var nums = [1, 3 , 5, 6]
-    nums = Array(Set(nums))
-    nums.sort()
-    return nums.count
-}
+var str = "Hello world"

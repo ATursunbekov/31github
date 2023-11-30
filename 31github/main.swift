@@ -10,3 +10,5 @@ import Foundation
 
 
 var str = "Hello world"
+
+print(round(sqrt(2.0)))

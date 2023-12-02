@@ -1,8 +1,10 @@
-extension String {
-    var alphanumeric: String {
-        return self.components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
-    }
-}
+import Foundation
+
+//extension String {
+//    var alphanumeric: String {
+//        return self.components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
+//    }
+//}
 
 class Solution125 {
     func isPalindrome(_ s: String) -> Bool {

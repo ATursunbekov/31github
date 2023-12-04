@@ -31,16 +31,33 @@ import Foundation
 //    num == 0
 //}
 //merge(&temp, 4, [2,4, 5,8], 4)
-extension String {
-    var alphanumeric: String {
-        return self.components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
-    }
-}
+//extension String {
+//    var alphanumeric: String {
+//        return self.components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
+//    }
+//}
+//
+//var temp = "`l;`` 1o1 ??;l`"
+//temp = temp.lowercased()
+//temp.removeAll { val in
+//    val == " "
+//}
+//temp = temp.alphanumeric
+//print(temp)
 
-var temp = "`l;`` 1o1 ??;l`"
-temp = temp.lowercased()
-temp.removeAll { val in
-    val == " "
-}
-temp = temp.alphanumeric
-print(temp)
+var nums = [1, 2, 3,5]
+
+func containsDuplicate(_ nums: [Int]) -> Bool {
+        var temp = nums
+        for i in temp {
+            temp.removeLast(i)
+            print(temp)
+            print(temp)
+            if temp.contains(i) {
+                return true
+            }
+        }
+        return false
+    }
+
+print(containsDuplicate(nums))

@@ -12,7 +12,7 @@ class Solution125 {
         temp.removeAll { val in
         val == " "
         }
-        temp = temp.alphanumeric
+        //temp = temp.alphanumeric
         var temp1 = String(temp.reversed())
         return temp == temp1
     }
